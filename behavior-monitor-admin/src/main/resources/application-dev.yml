@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     username: root
-    password: dst188144a
-    url: jdbc:mysql://127.0.0.1:3306/business-behavior-monitor?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+    password: dst188144
+    url: jdbc:mysql://47.121.185.163:13306/business-behavior-monitor?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
   hikari:
     pool-name: Retail_HikariCP
@@ -21,7 +21,7 @@ spring:
 redis:
   sdk:
     config:
-      host: 192.168.1.108
+      host: 47.121.185.163
       port: 16379
       pool-size: 10
       min-idle-size: 5
