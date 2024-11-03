@@ -109,8 +109,8 @@
         <port>16379</port>
     </appender>-->
     <appender name="CUSTOM" class="com.dawang.monitor.sdk.appender.CustomAppender">
-    <systemName>test</systemName>
-    <groupId>com.dawang.monitor</groupId>
+    <systemName>big-market</systemName>
+    <groupId>com.dawang</groupId>
     <host>47.121.185.163</host>
     <port>16379</port>
    </appender>

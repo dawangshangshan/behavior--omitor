@@ -66,21 +66,21 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
         </dependency>
-<!--        <dependency>
+        <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson-spring-boot-starter</artifactId>
             <version>3.26.0</version>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>ognl</groupId>
             <artifactId>ognl</artifactId>
             <version>3.0.8</version>
         </dependency>
-<!--        <dependency>
+        <dependency>
             <groupId>com.dawang</groupId>
             <artifactId>behavior-monitor-sdk</artifactId>
             <version>1.0</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>
@@ -120,7 +120,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.bugstack.Application</mainClass>
+                    <mainClass>com.dawang.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

@@ -189,8 +189,8 @@
         });
     });
 
-    function fetchData(monitorId) {
-            fetch(`http://localhost:8091/api/v1/monitor/query_monitor_flow_map?monitorId=${monitorId}`)
+   /* function fetchData(monitorId) {
+            fetch(`http://localhost:8080/api/v1/monitor/query_monitor_flow_map?monitorId=${monitorId}`)
                 .then(response => response.json())
                 .then(data => {
                     if (data.code === "0000") {
@@ -203,9 +203,9 @@
                     console.error('Error loading data:', error);
                 });
         }
-
+*/
     function fetchSceneList() {
-        fetch('http://localhost:8091/api/v1/monitor/query_monitor_data_map_entity_list')
+        fetch('http://localhost:8080/api/v1/monitor/queryMonitorDataMapEntityList')
             .then(response => response.json())
             .then(data => {
                 if (data.code === '0000') {
@@ -230,8 +230,8 @@
             });
     }
 
-    function fetchMonitorData(monitorId, monitorName = '', monitorNodeId = '') {
-        fetch(`http://localhost:8091/api/v1/monitor/query_monitor_data_list?monitorId=${monitorId}&monitorName=${monitorName}&monitorNodeId=${monitorNodeId}`)
+    /*function fetchMonitorData(monitorId, monitorName = '', monitorNodeId = '') {
+        fetch(`http://localhost:8080/api/v1/monitor/query_monitor_data_list?monitorId=${monitorId}&monitorName=${monitorName}&monitorNodeId=${monitorNodeId}`)
             .then(response => response.json())
             .then(data => {
                 if (data.code === '0000') {
@@ -257,7 +257,7 @@
                 console.error('Error:', error);
                 alert('查询失败，请检查网络连接或联系管理员。');
             });
-    }
+    }*/
 </script>
 
 </body>

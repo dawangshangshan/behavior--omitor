@@ -1,10 +1,12 @@
 package com.dawang.monitor.infrastructure.po;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.Date;
 
 @Data
+@Builder
 public class MonitorData {
 
     // 自增ID
