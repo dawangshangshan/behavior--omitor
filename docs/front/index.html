@@ -37,7 +37,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #99999;
+            color: #999999;
         }
         #monitorDisplayPanel {
             border: solid 1px black;
@@ -189,8 +189,8 @@
         });
     });
 
-   /* function fetchData(monitorId) {
-            fetch(`http://localhost:8080/api/v1/monitor/query_monitor_flow_map?monitorId=${monitorId}`)
+    function fetchData(monitorId) {
+            fetch(`http://localhost:8080/api/v1/monitor/queryMonitorFlowMap?monitorId=${monitorId}`)
                 .then(response => response.json())
                 .then(data => {
                     if (data.code === "0000") {
@@ -203,7 +203,6 @@
                     console.error('Error loading data:', error);
                 });
         }
-*/
     function fetchSceneList() {
         fetch('http://localhost:8080/api/v1/monitor/queryMonitorDataMapEntityList')
             .then(response => response.json())

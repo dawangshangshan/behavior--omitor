@@ -1,88 +1,10 @@
-24-11-02.19:47:40.253 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'monitorLogListener': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dawang.monitor.domain.service.ILogAnalyticalService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-24-11-02.19:47:40.378 [main            ] ERROR LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-A component required a bean of type 'com.dawang.monitor.domain.service.ILogAnalyticalService' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.dawang.monitor.domain.service.ILogAnalyticalService' in your configuration.
-
-24-11-02.19:50:51.831 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s207ms145µs800ns).
-24-11-02.19:51:06.469 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
-java.lang.NullPointerException: null
-	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
-	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
-	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
-	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-24-11-02.19:56:02.971 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m49s466ms558µs100ns).
-24-11-02.19:56:31.636 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
-java.lang.NullPointerException: null
-	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
-	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
-	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
-	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-24-11-02.19:56:31.637 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志01","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_01","systemName":"big-market"}
-java.lang.NullPointerException: null
-	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
-	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
-	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
-	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-24-11-02.19:56:31.637 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志02","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_02","systemName":"big-market"}
-java.lang.NullPointerException: null
-	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
-	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
-	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
-	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
-	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-24-11-02.19:57:25.366 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logAnalyticalService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dawang.monitor.domain.repository.IMonitorRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-24-11-02.19:57:25.402 [main            ] ERROR LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-A component required a bean of type 'com.dawang.monitor.domain.repository.IMonitorRepository' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.dawang.monitor.domain.repository.IMonitorRepository' in your configuration.
-
-24-11-02.20:15:14.080 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m39s415ms654µs700ns).
-24-11-02.20:16:48.344 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s264ms70µs100ns).
-24-11-02.21:01:31.474 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m50s353ms167µs100ns).
-24-11-02.21:07:12.149 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s626ms763µs).
-24-11-02.21:12:39.852 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s657ms97µs600ns).
-24-11-02.21:16:13.613 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s1ms871µs500ns).
+24-11-04.00:51:09.438 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31d9dbf1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:14.458 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a7a1500 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:19.467 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d84a9b0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:24.474 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50157dd2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:29.488 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b79575 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:29.944 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@633f4c12 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:34.497 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b216507 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:34.949 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6df8be05 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:39.958 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69c72762 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+24-11-04.00:51:44.978 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@35032268 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.

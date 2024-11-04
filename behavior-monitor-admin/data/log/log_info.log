@@ -1,105 +1,239 @@
-24-11-03.23:15:05.185 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 85908 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
-24-11-03.23:15:05.187 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
-24-11-03.23:15:06.375 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-03.23:15:06.378 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-03.23:15:06.411 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-24-11-03.23:15:08.407 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-03.23:15:09.386 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:15:09.826 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:15:11.500 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-03.23:15:11.580 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.906 seconds (JVM running for 8.031)
-24-11-03.23:15:12.017 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-03.23:15:13.562 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-03.23:15:13.830 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
-24-11-03.23:15:13.930 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-03.23:15:14.352 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-03.23:15:47.492 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 58272 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
-24-11-03.23:15:47.494 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
-24-11-03.23:15:48.445 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-03.23:15:48.448 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-03.23:15:48.480 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-11-03.23:15:50.307 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-03.23:15:51.281 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:15:51.700 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:15:53.415 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-03.23:15:53.488 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.457 seconds (JVM running for 7.799)
-24-11-03.23:15:55.018 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-03.23:15:57.682 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-03.23:16:01.287 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-03.23:16:01.347 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
-24-11-03.23:16:01.636 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-03.23:16:08.971 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 45448 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
-24-11-03.23:16:08.972 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
-24-11-03.23:16:09.928 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-03.23:16:09.931 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-03.23:16:09.962 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-11-03.23:16:11.768 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-03.23:16:12.671 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:16:13.118 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:16:14.896 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-03.23:16:14.957 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.444 seconds (JVM running for 7.586)
-24-11-03.23:22:12.730 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-03.23:22:15.425 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-03.23:22:26.536 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-03.23:22:26.593 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
-24-11-03.23:22:26.979 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-03.23:22:31.466 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 83208 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
-24-11-03.23:22:31.468 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
-24-11-03.23:22:32.434 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-03.23:22:32.438 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-03.23:22:32.474 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-11-03.23:22:34.383 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-03.23:22:35.325 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:22:35.760 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:22:37.706 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-03.23:22:37.770 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.862 seconds (JVM running for 8.032)
-24-11-03.23:23:05.133 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-03.23:23:08.024 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-03.23:23:19.558 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-03.23:23:19.706 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
-24-11-03.23:23:19.897 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-03.23:33:39.773 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 45644 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
-24-11-03.23:33:39.775 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
-24-11-03.23:33:40.722 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-03.23:33:40.725 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-03.23:33:40.757 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-24-11-03.23:33:42.476 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-03.23:33:43.308 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:33:43.773 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:33:45.393 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-03.23:33:45.452 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.204 seconds (JVM running for 7.173)
-24-11-03.23:33:45.818 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-03.23:33:47.376 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-03.23:33:47.611 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
-24-11-03.23:33:47.702 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-03.23:33:48.028 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-03.23:34:07.731 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 70392 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
-24-11-03.23:34:07.732 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
-24-11-03.23:34:08.636 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-03.23:34:08.639 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-03.23:34:08.668 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-11-03.23:34:11.261 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-03.23:34:12.346 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:34:12.772 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:34:15.408 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-03.23:34:15.493 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 8.234 seconds (JVM running for 9.628)
-24-11-03.23:34:41.037 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-03.23:34:43.958 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-03.23:34:57.335 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-03.23:34:57.400 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
-24-11-03.23:34:57.625 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-03.23:36:14.498 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 20068 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
-24-11-03.23:36:14.499 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
-24-11-03.23:36:15.425 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-03.23:36:15.430 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-03.23:36:15.461 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-11-03.23:36:17.991 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-03.23:36:19.158 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:36:19.615 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-03.23:36:22.377 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-03.23:36:22.459 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 8.416 seconds (JVM running for 9.616)
-24-11-03.23:36:29.330 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-03.23:36:32.278 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-03.23:36:46.579 [main            ] INFO  MonitorControllerTest  - response:{"code":"0000","data":[{"monitorId":"129009","monitorName":"测试监控流程"},{"monitorId":"129101","monitorName":"大营销抽奖流程"}],"info":"调用成功"}
-24-11-03.23:36:46.685 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-03.23:36:46.823 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-04.18:00:21.930 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 58256 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-04.18:00:21.931 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-04.18:00:22.881 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-04.18:00:22.884 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-04.18:00:22.913 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-04.18:00:24.646 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-04.18:00:25.544 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:00:26.025 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:00:27.589 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-04.18:00:27.642 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.173 seconds (JVM running for 7.045)
+24-11-04.18:00:27.990 [main            ] INFO  MonitorController      - 查询监控图数据，监控ID：129009
+24-11-04.18:00:27.993 [main            ] ERROR MonitorController      - 查询监控图数据失败 minitorId:129009
+java.lang.NullPointerException: null
+	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:54)
+	at com.dawang.monitor.test.trigger.MonitorControllerTest.test_queryMonitorFlowData(MonitorControllerTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+24-11-04.18:00:28.142 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"查询监控图数据失败"}
+24-11-04.18:00:53.493 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 67312 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-04.18:00:53.494 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-04.18:00:54.448 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-04.18:00:54.451 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-04.18:00:54.479 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-11-04.18:00:57.023 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-04.18:00:58.097 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:00:58.561 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:01:01.087 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-04.18:01:01.171 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 8.169 seconds (JVM running for 9.314)
+24-11-04.18:02:04.326 [main            ] INFO  MonitorController      - 查询监控图数据，监控ID：129009
+24-11-04.18:02:04.338 [main            ] ERROR MonitorController      - 查询监控图数据失败 minitorId:129009
+java.lang.NullPointerException: null
+	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:54)
+	at com.dawang.monitor.test.trigger.MonitorControllerTest.test_queryMonitorFlowData(MonitorControllerTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+24-11-04.18:02:08.268 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"查询监控图数据失败"}
+24-11-04.18:02:19.093 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 41400 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-04.18:02:19.094 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-04.18:02:20.028 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-04.18:02:20.031 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-04.18:02:20.057 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-11-04.18:02:22.473 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-04.18:02:23.540 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:02:23.976 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:02:26.592 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-04.18:02:26.690 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 8.086 seconds (JVM running for 9.31)
+24-11-04.18:02:31.810 [main            ] INFO  MonitorController      - 查询监控图数据，监控ID：129009
+24-11-04.18:04:59.542 [main            ] ERROR MonitorController      - 查询监控图数据失败 minitorId:129009
+java.lang.NullPointerException: null
+	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:54)
+	at com.dawang.monitor.test.trigger.MonitorControllerTest.test_queryMonitorFlowData(MonitorControllerTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+24-11-04.18:04:59.765 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"查询监控图数据失败"}
+24-11-04.18:05:27.343 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 62440 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-04.18:05:27.345 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-04.18:05:28.255 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-04.18:05:28.258 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-04.18:05:28.284 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-04.18:05:30.706 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-04.18:05:31.798 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:05:32.230 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:05:34.857 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-04.18:05:34.944 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 8.127 seconds (JVM running for 9.578)
+24-11-04.18:05:44.742 [main            ] INFO  MonitorController      - 查询监控图数据，监控ID：129009
+24-11-04.18:05:50.755 [main            ] ERROR MonitorController      - 查询监控图数据失败 minitorId:129009
+java.lang.NullPointerException: null
+	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:54)
+	at com.dawang.monitor.test.trigger.MonitorControllerTest.test_queryMonitorFlowData(MonitorControllerTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+24-11-04.18:06:08.582 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 77068 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-04.18:06:08.583 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-04.18:06:09.351 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-04.18:06:09.353 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-04.18:06:09.375 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-11-04.18:06:10.941 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-04.18:06:11.813 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:06:12.296 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:06:14.000 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-04.18:06:14.047 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 5.885 seconds (JVM running for 6.843)
+24-11-04.18:06:14.380 [main            ] INFO  MonitorController      - 查询监控图数据，监控ID：129009
+24-11-04.18:06:14.409 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-04.18:06:15.816 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-04.18:06:16.740 [main            ] INFO  MonitorControllerTest  - response:{"code":"0000","data":{"monitorId":"129009","nodeDataArray":[{"fill":"#2ECC40","key":"1001","loc":"210 110","text":"编号：1001
+名称：用户下单
+次数：0"},{"fill":"#2ECC40","key":"1003","loc":"210 430","text":"编号：1003
+名称：发货完成
+次数：0"},{"fill":"#2ECC40","key":"1004","loc":"430 440","text":"编号：1004
+名称：发货失败
+次数：0"}]},"info":"调用成功"}
+24-11-04.18:06:16.840 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-04.18:06:17.162 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-04.18:12:29.736 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 80184 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-04.18:12:29.738 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-04.18:12:30.511 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-04.18:12:30.513 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-04.18:12:30.535 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-11-04.18:12:32.113 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-04.18:12:33.009 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:12:33.433 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-04.18:12:34.956 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-04.18:12:35.013 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 5.667 seconds (JVM running for 6.548)
+24-11-04.18:12:35.341 [main            ] INFO  MonitorController      - 查询监控图数据，监控ID：129009
+24-11-04.18:12:35.366 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-04.18:12:36.796 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-04.18:12:37.685 [main            ] INFO  MonitorControllerTest  - response:{"code":"0000","data":{"class":"go.GraphLinksModel","linkDataArray":[{"from":"1001","to":"1002"},{"from":"1002","to":"1003"},{"from":"1002","to":"1004"}],"modelData":{"position":"-5 -5"},"nodeDataArray":[{"fill":"#2ECC40","key":"1001","loc":"210 110","text":"编号：1001
+名称：用户下单
+次数：0"},{"fill":"#2ECC40","key":"1003","loc":"210 430","text":"编号：1003
+名称：发货完成
+次数：0"},{"fill":"#2ECC40","key":"1004","loc":"430 440","text":"编号：1004
+名称：发货失败
+次数：0"}]},"info":"调用成功"}
+24-11-04.18:12:37.793 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-04.18:12:37.979 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

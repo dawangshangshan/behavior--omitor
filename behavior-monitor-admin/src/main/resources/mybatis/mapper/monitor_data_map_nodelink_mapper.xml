@@ -9,6 +9,19 @@
         <result column="create_time" property="createTime"/>
         <result column="update_time" property="updateTime"/>
     </resultMap>
+    <insert id="insert">
+        insert into monitor_data_map_node_link(monitor_id, from_monitor_node_id, to_monitor_node_id)
+        values(#{monitorId}, #{fromMonitorNodeId}, #{toMonitorNodeId})
+    </insert>
+    <delete id="deleteLinkFromByMonitorId">
+        delete from monitor_data_map_node_link where monitor_id = #{monitorId}
+    </delete>
+    <select id="queryMonitorNodeListConfigByMonitorId"
+            resultType="com.dawang.monitor.infrastructure.po.MonitorDataMapNodeLink" parameterType="java.lang.String" resultMap="dataMap">
+        select id, from_monitor_node_id, to_monitor_node_id
+        from monitor_data_map_node_link
+        where monitor_id = #{monitorId}
+    </select>
 
     <!-- 插入数据 -->
 
