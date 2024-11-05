@@ -22,7 +22,7 @@
         values(#{monitorId},#{monitorName},#{monitorNodeId},#{systemName},#{clazzName},#{methodName},
         #{attributeName},#{attributeField},#{attributeValue},now(),now())
     </insert>
-    <select id="queryMonitorDataList" resultType="com.dawang.monitor.infrastructure.po.MonitorData">
+    <select id="queryMonitorDataList" resultType="com.dawang.monitor.infrastructure.po.MonitorData" parameterType="com.dawang.monitor.infrastructure.po.MonitorData" resultMap="dataMap">
         select monitor_id, monitor_name, monitor_node_id, system_name, clazz_name, method_name,
         attribute_name, attribute_field, attribute_value
         from monitor_data
@@ -39,7 +39,6 @@
         </where>
         order by id desc
         limit 50
-
     </select>
 
 </mapper>

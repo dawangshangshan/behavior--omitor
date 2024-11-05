@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205737ec-40bc-42d2-9a17-b78b8ea314d3" name="Changes" comment="feat: behavior-monitor 监控中心接收测试工程上报数据解析">
+    <list default="true" id="205737ec-40bc-42d2-9a17-b78b8ea314d3" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/data/log/log_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/data/log/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/dao/IMonitorDataMapNodeLinkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/dao/IMonitorDataMapNodeLinkDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_map_nodelink_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_map_nodelink_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/repository/IMonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/repository/IMonitorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/ILogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/ILogAnalyticalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/LogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/LogAnalyticalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/po/MonitorData.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/po/MonitorData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/repository/MonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/repository/MonitorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/trigger/http/MonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/trigger/http/MonitorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/test/java/com/dawang/monitor/test/trigger/MonitorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/test/java/com/dawang/monitor/test/trigger/MonitorControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/repository/IMonitorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/repository/IMonitorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/ILogAnalyticalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/ILogAnalyticalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/LogAnalyticalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/LogAnalyticalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/po/MonitorData$MonitorDataBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/po/MonitorData$MonitorDataBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/po/MonitorData.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/po/MonitorData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/repository/MonitorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/repository/MonitorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/trigger/http/MonitorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/trigger/http/MonitorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/mybatis/mapper/monitor_data_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/mybatis/mapper/monitor_data_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/test-classes/com/dawang/monitor/test/trigger/MonitorControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/test-classes/com/dawang/monitor/test/trigger/MonitorControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-test/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-test/target/classes/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/front/index.html" afterDir="false" />
@@ -32,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="20241027-dawang-monitor" />
+        <entry key="$PROJECT_DIR$" value="20241027-dawang-injt-flow" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +75,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "20241027-dawang-injt-flow",
+    "git-widget-placeholder": "20241027-dawang-injt-log",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "D:/code/java_and _c/java/javaee/behavior-monitor/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/po",
     "node.js.detected.package.eslint": "true",
@@ -118,22 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_log_00" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="behavior-monitor-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dawang.monitor.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.bugstack.monitor.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_log_00" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.test_log_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="behavior-monitor-test" />
       <extension name="coverage">
@@ -161,6 +162,22 @@
       <option name="PACKAGE_NAME" value="cn.bugstack.monitor.test.trigger" />
       <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.trigger.MonitorControllerTest" />
       <option name="METHOD_NAME" value="queryMonitorDataMapEntityList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorControllerTest.test_queryMonitorDataList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="behavior-monitor-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dawang.monitor.test.trigger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dawang.monitor.test.trigger" />
+      <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.trigger.MonitorControllerTest" />
+      <option name="METHOD_NAME" value="test_queryMonitorDataList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,10 +232,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MonitorControllerTest.test_queryMonitorDataList" />
         <item itemvalue="JUnit.MonitorControllerTest.test_queryMonitorFlowData" />
         <item itemvalue="JUnit.MonitorControllerTest.queryMonitorDataMapEntityList" />
-        <item itemvalue="JUnit.ApiTest.test_log_00 (1)" />
-        <item itemvalue="JUnit.ApiTest.test_log_01 (1)" />
         <item itemvalue="JUnit.ApiTest" />
       </list>
     </recent_temporary>
@@ -340,32 +356,37 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/LogAnalyticalService.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/test/java/com/dawang/monitor/test/trigger/MonitorControllerTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/test/java/com/dawang/monitor/test/trigger/MonitorControllerTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="8" />
+          <line>37</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/trigger/http/MonitorController.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/repository/MonitorRepository.java</url>
-          <line>105</line>
-          <properties class="com.dawang.monitor.infrastructure.repository.MonitorRepository" method="queryMonitorDataMapEntityList">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/LogAnalyticalService.java</url>
+          <line>110</line>
+          <properties class="com.dawang.monitor.domain.service.LogAnalyticalService" method="queryMonitorDataEntityList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/repository/MonitorRepository.java</url>
-          <line>118</line>
-          <properties class="com.dawang.monitor.infrastructure.repository.MonitorRepository" method="queryMonitorFlowData">
+          <line>177</line>
+          <properties class="com.dawang.monitor.infrastructure.repository.MonitorRepository" method="queryMonitorDataEntityList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

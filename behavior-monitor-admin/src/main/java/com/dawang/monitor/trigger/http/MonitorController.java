@@ -1,12 +1,15 @@
 package com.dawang.monitor.trigger.http;
 
+import com.dawang.monitor.domain.model.entity.MonitorDataEntity;
 import com.dawang.monitor.domain.model.entity.MonitorDataMapEntity;
 import com.dawang.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import com.dawang.monitor.domain.service.ILogAnalyticalService;
+import com.dawang.monitor.trigger.http.dto.MonitorDataDTO;
 import com.dawang.monitor.trigger.http.dto.MonitorDataMapDTO;
 import com.dawang.monitor.trigger.http.dto.MonitorFlowDataDTO;
 import com.dawang.monitor.types.Response;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -91,6 +94,46 @@ public class MonitorController {
             return Response.<MonitorFlowDataDTO>builder()
                     .code("0001")
                     .info("查询监控图数据失败")
+                    .build();
+        }
+    }
+
+    @RequestMapping(value = "query_monitor_data_list", method = RequestMethod.GET)
+    public Response<List<MonitorDataDTO>> queryMonitorDataList(@RequestParam String monitorId,@RequestParam String monitorName,@RequestParam String monitorNodeId){
+        try{
+            log.info("查询监控数据，监控ID：{}",monitorId);
+             List<MonitorDataEntity> monitorDataEntities=logAnalyticalService.queryMonitorDataEntityList(MonitorDataEntity.builder()
+                     .monitorId(StringUtils.isBlank(monitorId.trim()) ? null : monitorId)
+                     .monitorName(StringUtils.isBlank(monitorName.trim()) ? null : monitorName)
+                     .monitorNodeId(StringUtils.isBlank(monitorNodeId.trim()) ? null : monitorNodeId)
+                    .build()
+            );
+
+            List<MonitorDataDTO> monitorDataDTOS = new ArrayList<>();
+            for (MonitorDataEntity monitorDataEntity : monitorDataEntities) {
+                monitorDataDTOS.add(MonitorDataDTO.builder()
+                        .monitorId(monitorDataEntity.getMonitorId())
+                        .monitorName(monitorDataEntity.getMonitorName())
+                        .monitorNodeId(monitorDataEntity.getMonitorNodeId())
+                        .systemName(monitorDataEntity.getSystemName())
+                        .clazzName(monitorDataEntity.getClazzName())
+                        .methodName(monitorDataEntity.getMethodName())
+                        .attributeName(monitorDataEntity.getAttributeName())
+                        .attributeField(monitorDataEntity.getAttributeField())
+                        .attributeValue(monitorDataEntity.getAttributeValue())
+                        .build());
+            }
+            return Response.<List<MonitorDataDTO>>builder()
+                    .code("0000")
+                    .info("调用成功")
+                    .data(monitorDataDTOS)
+                    .build();
+
+
+        }catch (Exception e){
+            return Response.<List<MonitorDataDTO>>builder()
+                    .code("0001")
+                    .info("调用监控列表失败")
                     .build();
         }
     }

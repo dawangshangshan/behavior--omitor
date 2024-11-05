@@ -2,6 +2,7 @@ package com.dawang.monitor.test.trigger;
 
 import com.alibaba.fastjson.JSON;
 import com.dawang.monitor.trigger.http.MonitorController;
+import com.dawang.monitor.trigger.http.dto.MonitorDataDTO;
 import com.dawang.monitor.trigger.http.dto.MonitorDataMapDTO;
 import com.dawang.monitor.trigger.http.dto.MonitorFlowDataDTO;
 import com.dawang.monitor.types.Response;
@@ -30,6 +31,12 @@ public class MonitorControllerTest {
     public  void test_queryMonitorFlowData(){
         Response<MonitorFlowDataDTO> response = monitorController.queryMonitorFlowMap("129009");
         log.info("response:{}", JSON.toJSONString( response));
+    }
+
+    @Test
+    public void test_queryMonitorDataList(){
+        Response<List<MonitorDataDTO>> response = monitorController.queryMonitorDataList("129009","","");
+        log.info("测试结果: {}", com.alibaba.fastjson2.JSON.toJSONString(response));
     }
 
 }

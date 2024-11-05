@@ -10,7 +10,6 @@ import com.dawang.monitor.types.Constants;
 import ognl.Ognl;
 import ognl.OgnlContext;
 import ognl.OgnlException;
-import org.apache.tomcat.util.bcel.classfile.Constant;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -106,6 +105,11 @@ public class LogAnalyticalService implements ILogAnalyticalService{
     @Override
     public MonitorTreeConfigVO queryMonitorFlowData(String monitorId) {
         return repository.queryMonitorFlowData(monitorId);
+    }
+
+    @Override
+    public List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity) {
+        return repository.queryMonitorDataEntityList(monitorDataEntity);
     }
 
 }

@@ -1,5 +1,6 @@
 package com.dawang.monitor.domain.service;
 
+import com.dawang.monitor.domain.model.entity.MonitorDataEntity;
 import com.dawang.monitor.domain.model.entity.MonitorDataMapEntity;
 import com.dawang.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import ognl.OgnlException;
@@ -15,4 +16,6 @@ public interface ILogAnalyticalService {
     List<MonitorDataMapEntity>  queryMonitorDataMapEntityList();
 
     MonitorTreeConfigVO queryMonitorFlowData(String monitorId);
+
+    List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity);
 }
