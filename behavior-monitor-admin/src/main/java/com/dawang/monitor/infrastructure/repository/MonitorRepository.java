@@ -2,6 +2,7 @@ package com.dawang.monitor.infrastructure.repository;
 
 import com.dawang.monitor.domain.model.entity.MonitorDataEntity;
 import com.dawang.monitor.domain.model.entity.MonitorDataMapEntity;
+import com.dawang.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import com.dawang.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import com.dawang.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import com.dawang.monitor.domain.repository.IMonitorRepository;
@@ -196,5 +197,35 @@ public class MonitorRepository implements IMonitorRepository {
             monitorDataEntities.add(monitorDataEntityRes);
         }
         return monitorDataEntities;
+    }
+
+    @Override
+    public void updateMonitorFlowDesigner(MonitorFlowDesignerEntity monitorFlowDesignerEntity) {
+        transactionTemplate.execute(status -> {
+            try {
+                List<MonitorFlowDesignerEntity.Node> nodeList = monitorFlowDesignerEntity.getNodeList();
+                for (MonitorFlowDesignerEntity.Node node : nodeList) {
+                    MonitorDataMapNode monitorDataMapNodeReq = new MonitorDataMapNode();
+                    monitorDataMapNodeReq.setMonitorId(monitorFlowDesignerEntity.getMonitorId());
+                    monitorDataMapNodeReq.setMonitorNodeId(node.getMonitorNodeId());
+                    monitorDataMapNodeReq.setLoc(node.getLoc());
+                    monitorDataMapNodeDao.updateNodeConfig(monitorDataMapNodeReq);
+                }
+
+                List<MonitorFlowDesignerEntity.Link> linkList = monitorFlowDesignerEntity.getLinkList();
+                monitorDataMapNodeLinkDao.deleteLinkFromByMonitorId(monitorFlowDesignerEntity.getMonitorId());
+                for (MonitorFlowDesignerEntity.Link link : linkList) {
+                    MonitorDataMapNodeLink monitorDataMapNodeLinkReq = new MonitorDataMapNodeLink();
+                    monitorDataMapNodeLinkReq.setMonitorId(monitorFlowDesignerEntity.getMonitorId());
+                    monitorDataMapNodeLinkReq.setFromMonitorNodeId(link.getFrom());
+                    monitorDataMapNodeLinkReq.setToMonitorNodeId(link.getTo());
+                    monitorDataMapNodeLinkDao.insert(monitorDataMapNodeLinkReq);
+                }
+                return 1;
+            } catch (Exception e) {
+                status.setRollbackOnly();
+                throw e;
+            }
+        });
     }
 }

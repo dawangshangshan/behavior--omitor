@@ -2,12 +2,14 @@ package com.dawang.monitor.trigger.http;
 
 import com.dawang.monitor.domain.model.entity.MonitorDataEntity;
 import com.dawang.monitor.domain.model.entity.MonitorDataMapEntity;
+import com.dawang.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import com.dawang.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import com.dawang.monitor.domain.service.ILogAnalyticalService;
 import com.dawang.monitor.trigger.http.dto.MonitorDataDTO;
 import com.dawang.monitor.trigger.http.dto.MonitorDataMapDTO;
 import com.dawang.monitor.trigger.http.dto.MonitorFlowDataDTO;
 import com.dawang.monitor.types.Response;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -134,6 +136,50 @@ public class MonitorController {
             return Response.<List<MonitorDataDTO>>builder()
                     .code("0001")
                     .info("调用监控列表失败")
+                    .build();
+        }
+    }
+
+    @RequestMapping(value = "/update_monitor_flow_designer",method = {RequestMethod.POST})
+    public Response<Boolean> updateMonitorFlowDesigner(@RequestParam String monitorId,@RequestBody MonitorFlowDataDTO request){
+        try{
+            log.info("修改监控节点，监控ID：{}",monitorId);
+            List<MonitorFlowDataDTO.NodeData> nodeDataList = request.getNodeDataArray();
+            List<MonitorFlowDataDTO.LinkData> linkDataList = request.getLinkDataArray();
+            List<MonitorFlowDesignerEntity.Node> nodeList = new ArrayList<>(nodeDataList.size());
+            for (MonitorFlowDataDTO.NodeData nodeData : nodeDataList) {
+                nodeList.add(MonitorFlowDesignerEntity.Node.builder()
+                        .monitorNodeId(nodeData.getKey())
+                        .loc(nodeData.getLoc())
+                        .build());
+            }
+            List<MonitorFlowDesignerEntity.Link> linkList = new ArrayList<>(linkDataList.size());
+
+            for (MonitorFlowDataDTO.LinkData linkData : linkDataList) {
+                linkList.add(MonitorFlowDesignerEntity.Link.builder()
+                        .from(linkData.getFrom())
+                        .to(linkData.getTo())
+                        .build());
+            }
+
+            MonitorFlowDesignerEntity monitorFlowDesignerEntity = MonitorFlowDesignerEntity.builder()
+                    .monitorId(monitorId)
+                    .nodeList(nodeList)
+                    .linkList(linkList)
+                    .build();
+
+            logAnalyticalService.updateMonitorFlowDesigner(monitorFlowDesignerEntity);
+            return Response.<Boolean>builder()
+                    .code("0000")
+                    .info("调用成功")
+                    .data(true)
+                    .build();
+
+        }catch (Exception e){
+            return Response.<Boolean>builder()
+                    .code("0001")
+                    .info("修改监控节点失败")
+                    .data(false)
                     .build();
         }
     }

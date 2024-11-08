@@ -74,7 +74,7 @@
             }
 
             function fetchData() {
-                fetch(`http://localhost:8091/api/v1/monitor/query_monitor_flow_map?monitorId=${monitorId}`)
+                fetch(`http://localhost:8080/api/v1/monitor/queryMonitorFlowMap?monitorId=${monitorId}`)
                     .then(response => response.json())
                     .then(data => {
                         if (data.code === "0000") {
@@ -91,7 +91,7 @@
             fetchData();
 
             $('#btnSave').on('click', function() {
-                fetch(`http://localhost:8091/api/v1/monitor/update_monitor_flow_designer?monitorId=${monitorId}`, {
+                fetch(`http://localhost:8080/api/v1/monitor/update_monitor_flow_designer?monitorId=${monitorId}`, {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json'

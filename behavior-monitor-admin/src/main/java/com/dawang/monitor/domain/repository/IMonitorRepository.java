@@ -2,6 +2,7 @@ package com.dawang.monitor.domain.repository;
 
 import com.dawang.monitor.domain.model.entity.MonitorDataEntity;
 import com.dawang.monitor.domain.model.entity.MonitorDataMapEntity;
+import com.dawang.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import com.dawang.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import com.dawang.monitor.domain.model.valobj.MonitorTreeConfigVO;
 
@@ -21,4 +22,6 @@ public interface IMonitorRepository {
     MonitorTreeConfigVO queryMonitorFlowData(String monitorId);
 
     List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity);
+
+    void updateMonitorFlowDesigner(MonitorFlowDesignerEntity monitorFlowDesignerEntity);
 }

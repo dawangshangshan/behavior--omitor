@@ -3,6 +3,7 @@ package com.dawang.monitor.domain.service;
 import com.alibaba.fastjson.JSONObject;
 import com.dawang.monitor.domain.model.entity.MonitorDataEntity;
 import com.dawang.monitor.domain.model.entity.MonitorDataMapEntity;
+import com.dawang.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import com.dawang.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import com.dawang.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import com.dawang.monitor.domain.repository.IMonitorRepository;
@@ -110,6 +111,11 @@ public class LogAnalyticalService implements ILogAnalyticalService{
     @Override
     public List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity) {
         return repository.queryMonitorDataEntityList(monitorDataEntity);
+    }
+
+    @Override
+    public void updateMonitorFlowDesigner(MonitorFlowDesignerEntity monitorFlowDesignerEntity) {
+         repository.updateMonitorFlowDesigner(monitorFlowDesignerEntity);
     }
 
 }

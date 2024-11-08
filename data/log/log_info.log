@@ -1,1466 +1,282 @@
-24-11-04.00:27:40.872 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 73140 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
-24-11-04.00:27:40.876 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-24-11-04.00:27:41.743 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-04.00:27:41.744 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-04.00:27:41.776 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-11-04.00:27:42.287 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-11-04.00:27:42.299 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-04.00:27:42.299 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-11-04.00:27:42.300 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-11-04.00:27:42.469 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-11-04.00:27:42.469 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1536 ms
-24-11-04.00:27:43.048 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-04.00:27:43.858 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.00:27:44.304 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.00:27:45.120 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-04.00:27:45.144 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-11-04.00:27:45.154 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-11-04.00:27:45.166 [main            ] INFO  Application            - Started Application in 5.083 seconds (JVM running for 7.229)
-24-11-04.00:27:45.876 [RMI TCP Connection(2)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-11-04.00:27:45.877 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-11-04.00:27:45.878 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-04.00:27:45.879 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 2 ms
-24-11-04.00:27:47.744 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-04.00:51:09.438 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31d9dbf1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:14.458 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a7a1500 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:19.467 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d84a9b0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:24.474 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50157dd2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:29.488 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b79575 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:29.944 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@633f4c12 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:34.497 [http-nio-8080-exec-3] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b216507 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:34.949 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6df8be05 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:39.958 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69c72762 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:51:44.978 [http-nio-8080-exec-9] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@35032268 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-24-11-04.00:54:03.807 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-04.00:54:03.812 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-04.18:18:30.820 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 66140 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
-24-11-04.18:18:30.824 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-24-11-04.18:18:31.527 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-04.18:18:31.529 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-04.18:18:31.548 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
-24-11-04.18:18:31.941 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-11-04.18:18:31.948 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-04.18:18:31.948 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-11-04.18:18:31.948 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-11-04.18:18:32.081 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-11-04.18:18:32.081 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1221 ms
-24-11-04.18:18:32.521 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-04.18:18:33.221 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.18:18:33.671 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.18:18:34.260 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-04.18:18:34.283 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-11-04.18:18:34.292 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-11-04.18:18:34.303 [main            ] INFO  Application            - Started Application in 4.005 seconds (JVM running for 5.657)
-24-11-04.18:18:34.425 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-04.18:18:35.427 [RMI TCP Connection(3)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-11-04.18:18:35.427 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-11-04.18:18:35.429 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 2 ms
-24-11-04.18:18:35.803 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-04.18:18:42.837 [http-nio-8080-exec-4] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:18:43.925 [http-nio-8080-exec-8] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:18:44.660 [http-nio-8080-exec-7] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:18:49.667 [http-nio-8080-exec-2] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:18:54.656 [http-nio-8080-exec-9] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:18:59.649 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:19:01.961 [http-nio-8080-exec-3] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.18:19:06.970 [http-nio-8080-exec-5] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.18:19:11.966 [http-nio-8080-exec-10] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.18:19:13.966 [http-nio-8080-exec-8] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:19:18.257 [http-nio-8080-exec-2] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:19:19.391 [http-nio-8080-exec-1] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:19:24.387 [http-nio-8080-exec-3] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:19:30.330 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:19:34.720 [http-nio-8080-exec-5] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.18:21:49.706 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-04.18:21:49.715 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-04.21:28:04.540 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 2812 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
-24-11-04.21:28:04.542 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-24-11-04.21:28:05.366 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-04.21:28:05.367 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-04.21:28:05.392 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-11-04.21:28:05.903 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-11-04.21:28:05.912 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-04.21:28:05.912 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-11-04.21:28:05.913 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-11-04.21:28:06.024 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-11-04.21:28:06.024 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1449 ms
-24-11-04.21:28:06.506 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-04.21:28:07.301 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:28:07.697 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:28:08.423 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-04.21:28:08.461 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-11-04.21:28:08.472 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-11-04.21:28:08.484 [main            ] INFO  Application            - Started Application in 4.451 seconds (JVM running for 6.172)
-24-11-04.21:28:09.071 [RMI TCP Connection(1)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-11-04.21:28:09.071 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-11-04.21:28:09.072 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-04.21:28:09.072 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
-24-11-04.21:28:10.566 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-04.21:28:21.261 [http-nio-8080-exec-3] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:28:21.261 [http-nio-8080-exec-8] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:28:24.107 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:28:24.112 [http-nio-8080-exec-7] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:28:26.688 [http-nio-8080-exec-5] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.21:28:26.690 [http-nio-8080-exec-10] INFO  MonitorController      - 查询监控数据，监控ID：129009
-24-11-04.21:28:31.688 [http-nio-8080-exec-1] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.21:28:36.697 [http-nio-8080-exec-4] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.21:28:39.031 [http-nio-8080-exec-7] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:28:39.031 [http-nio-8080-exec-2] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:28:42.434 [http-nio-8080-exec-10] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:28:42.434 [http-nio-8080-exec-9] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:28:45.399 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.21:28:45.400 [http-nio-8080-exec-1] INFO  MonitorController      - 查询监控数据，监控ID：129009
-24-11-04.21:28:50.402 [http-nio-8080-exec-4] INFO  MonitorController      - 查询监控图数据，监控ID：129009
-24-11-04.21:28:54.545 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-04.21:28:54.558 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-04.21:31:30.055 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 75180 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
-24-11-04.21:31:30.058 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-24-11-04.21:31:30.762 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-04.21:31:30.764 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-04.21:31:30.787 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
-24-11-04.21:31:31.184 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-11-04.21:31:31.192 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-04.21:31:31.193 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-11-04.21:31:31.193 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-11-04.21:31:31.310 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-11-04.21:31:31.310 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1217 ms
-24-11-04.21:31:32.363 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-04.21:31:33.267 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:31:33.704 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:31:34.737 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-04.21:31:34.772 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-11-04.21:31:34.786 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-11-04.21:31:34.803 [main            ] INFO  Application            - Started Application in 5.193 seconds (JVM running for 6.771)
-24-11-04.21:31:35.584 [RMI TCP Connection(1)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-11-04.21:31:35.584 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-11-04.21:31:35.586 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 2 ms
-24-11-04.21:31:35.586 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-04.21:31:37.266 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-04.21:34:20.516 [http-nio-8080-exec-2] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:34:20.517 [http-nio-8080-exec-4] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:34:55.184 [http-nio-8080-exec-5] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:34:57.767 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:35:03.250 [http-nio-8080-exec-7] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:35:03.265 [http-nio-8080-exec-8] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:35:17.535 [http-nio-8080-exec-3] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:35:17.538 [http-nio-8080-exec-1] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:35:17.540 [http-nio-8080-exec-12] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:35:17.540 [http-nio-8080-exec-11] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:35:20.638 [http-nio-8080-exec-11] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$e8d581b5.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.850 [redisson-netty-1-5] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x9a4be222, L:/192.168.0.108:53592 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:35:20.638 [http-nio-8080-exec-1] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$e8d581b5.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.850 [redisson-netty-1-12] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x20beb062, L:/192.168.0.108:53595 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:141)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:35:20.638 [http-nio-8080-exec-7] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$e8d581b5.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.850 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x250a3907, L:/192.168.0.108:53590 - R:47.121.185.163/47.121.185.163:16379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://47.121.185.163:16379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:35:20.638 [http-nio-8080-exec-8] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$e8d581b5.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.974 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x9a4be222, L:/192.168.0.108:53592 ! R:47.121.185.163/47.121.185.163:16379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://47.121.185.163:16379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:35:20.638 [http-nio-8080-exec-2] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$e8d581b5.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.974 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xb2900e25, L:/192.168.0.108:53593 - R:47.121.185.163/47.121.185.163:16379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://47.121.185.163:16379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:35:20.639 [http-nio-8080-exec-6] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$e8d581b5.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.974 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xeb43c3fd, L:/192.168.0.108:53594 - R:47.121.185.163/47.121.185.163:16379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://47.121.185.163:16379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:35:20.639 [http-nio-8080-exec-5] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$e8d581b5.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.975 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x20beb062, L:/192.168.0.108:53595 ! R:47.121.185.163/47.121.185.163:16379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://47.121.185.163:16379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:141)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:35:20.729 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-04.21:35:20.735 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-04.21:35:46.920 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 82356 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
-24-11-04.21:35:46.922 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-24-11-04.21:35:47.843 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-04.21:35:47.846 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-04.21:35:47.881 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-11-04.21:35:48.405 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-11-04.21:35:48.411 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-04.21:35:48.412 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-11-04.21:35:48.412 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-11-04.21:35:48.552 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-11-04.21:35:48.552 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1596 ms
-24-11-04.21:35:49.671 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-04.21:35:50.664 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:35:51.077 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:35:52.510 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-04.21:35:52.559 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-11-04.21:35:52.577 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-11-04.21:35:52.604 [main            ] INFO  Application            - Started Application in 6.203 seconds (JVM running for 8.044)
-24-11-04.21:35:53.866 [RMI TCP Connection(6)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-11-04.21:35:53.866 [RMI TCP Connection(6)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-11-04.21:35:53.868 [RMI TCP Connection(6)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
-24-11-04.21:35:53.869 [RMI TCP Connection(7)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-04.21:35:55.524 [RMI TCP Connection(7)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-04.21:36:27.284 [http-nio-8080-exec-3] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:36:27.284 [http-nio-8080-exec-4] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:36:59.737 [http-nio-8080-exec-5] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:36:59.739 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:38:14.828 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s598ms162µs101ns).
-24-11-04.21:38:14.833 [http-nio-8080-exec-8] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:38:14.833 [http-nio-8080-exec-7] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:38:14.842 [http-nio-8080-exec-9] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:38:17.788 [http-nio-8080-exec-5] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$2887d844.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.850 [redisson-netty-1-8] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xb2900e25, L:/192.168.0.108:53593 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:38:17.788 [http-nio-8080-exec-8] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$2887d844.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.850 [redisson-netty-1-2] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x250a3907, L:/192.168.0.108:53590 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:141)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:38:17.788 [http-nio-8080-exec-3] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$2887d844.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.850 [redisson-netty-1-3] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x4859f7ee, L:/192.168.0.108:53591 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:141)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:38:17.788 [http-nio-8080-exec-7] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$2887d844.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:13.864 [redisson-netty-1-10] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xeb43c3fd, L:/192.168.0.108:53594 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:38:17.789 [http-nio-8080-exec-9] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$2887d844.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.11:34:41.831 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h57m58s35ms461µs300ns).
+24-11-06.18:28:23.583 [redisson-netty-1-15] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x620228e5, L:/192.168.0.108:50411 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:38:17.789 [http-nio-8080-exec-6] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$2887d844.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:108)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.18:28:23.735 [redisson-netty-1-18] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x797fffbb, L:/192.168.0.108:50420 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:147)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:38:17.876 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-04.21:38:17.883 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-04.21:47:48.542 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 67232 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
-24-11-04.21:47:48.544 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-24-11-04.21:47:49.152 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-04.21:47:49.154 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-04.21:47:49.173 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-24-11-04.21:47:49.507 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-11-04.21:47:49.512 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-04.21:47:49.512 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-11-04.21:47:49.513 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-11-04.21:47:49.619 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-11-04.21:47:49.619 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
-24-11-04.21:47:50.062 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-04.21:47:50.830 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:47:51.294 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:47:51.919 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-04.21:47:51.946 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-11-04.21:47:51.955 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-11-04.21:47:51.968 [main            ] INFO  Application            - Started Application in 3.769 seconds (JVM running for 4.917)
-24-11-04.21:47:52.894 [RMI TCP Connection(3)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-11-04.21:47:52.894 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-11-04.21:47:52.895 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
-24-11-04.21:47:52.895 [RMI TCP Connection(4)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-04.21:47:54.171 [RMI TCP Connection(4)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-04.21:48:13.538 [http-nio-8080-exec-3] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:13.539 [http-nio-8080-exec-4] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:48:18.502 [http-nio-8080-exec-5] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:23.504 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:28.505 [http-nio-8080-exec-7] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:33.504 [http-nio-8080-exec-8] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:38.514 [http-nio-8080-exec-9] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:43.501 [http-nio-8080-exec-10] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:48.519 [http-nio-8080-exec-1] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:53.513 [http-nio-8080-exec-2] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:48:58.488 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-04.21:48:58.501 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-11-04.21:51:03.312 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 49380 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
-24-11-04.21:51:03.315 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-24-11-04.21:51:03.915 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-11-04.21:51:03.916 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-11-04.21:51:03.936 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
-24-11-04.21:51:04.263 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-11-04.21:51:04.269 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-11-04.21:51:04.270 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-11-04.21:51:04.270 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-11-04.21:51:04.375 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-11-04.21:51:04.375 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1029 ms
-24-11-04.21:51:04.776 [main            ] INFO  Version                - Redisson 3.26.0
-24-11-04.21:51:05.527 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:51:05.967 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
-24-11-04.21:51:06.601 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-11-04.21:51:06.639 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-11-04.21:51:06.652 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-11-04.21:51:06.670 [main            ] INFO  Application            - Started Application in 3.712 seconds (JVM running for 4.861)
-24-11-04.21:51:07.899 [RMI TCP Connection(2)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-11-04.21:51:07.899 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-11-04.21:51:07.900 [RMI TCP Connection(3)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-11-04.21:51:07.901 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 2 ms
-24-11-04.21:51:09.338 [RMI TCP Connection(3)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-11-04.21:51:56.751 [http-nio-8080-exec-1] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:51:56.752 [http-nio-8080-exec-4] INFO  MonitorController      - 查询监控数据，监控ID：129101
-24-11-04.21:52:01.699 [http-nio-8080-exec-5] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:52:06.697 [http-nio-8080-exec-6] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:52:11.703 [http-nio-8080-exec-7] INFO  MonitorController      - 查询监控图数据，监控ID：129101
-24-11-04.21:52:16.193 [http-nio-8080-exec-7] ERROR MonitorController      - 查询监控图数据失败 minitorId:129101
-org.springframework.dao.InvalidDataAccessApiUsageException: java.lang.InterruptedException; nested exception is org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:52)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$EnhancerBySpringCGLIB$$16f12d58.queryMonitorFlowData(<generated>)
-	at com.dawang.monitor.domain.service.LogAnalyticalService.queryMonitorFlowData(LogAnalyticalService.java:107)
-	at com.dawang.monitor.trigger.http.MonitorController.queryMonitorFlowMap(MonitorController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+24-11-06.18:28:23.745 [redisson-netty-1-19] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x1ddcf419, L:/192.168.0.108:50457 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.redisson.client.RedisException: java.lang.InterruptedException
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:148)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.RedissonAtomicLong.get(RedissonAtomicLong.java:98)
-	at com.dawang.monitor.infrastructure.redis.RedissonService.getAtomicLong(RedissonService.java:52)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository.queryMonitorFlowData(MonitorRepository.java:149)
-	at com.dawang.monitor.infrastructure.repository.MonitorRepository$$FastClassBySpringCGLIB$$443441f6.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	... 60 common frames omitted
-Caused by: java.lang.InterruptedException: null
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:144)
-	... 70 common frames omitted
-24-11-04.21:52:16.282 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-11-04.21:52:16.289 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-06.18:28:23.756 [redisson-netty-1-17] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xb963d767, L:/192.168.0.108:50419 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-11-06.18:28:23.585 [redisson-netty-1-14] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x5cd5d67f, L:/192.168.0.108:50410 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-11-06.18:28:41.024 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m53s857ms681µs100ns).
+24-11-06.19:34:23.828 [redisson-netty-1-16] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x58c3f1a8, L:/192.168.0.108:50412 - R:47.121.185.163/47.121.185.163:16379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-11-06.20:22:42.539 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-06.20:22:42.551 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
