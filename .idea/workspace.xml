@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="205737ec-40bc-42d2-9a17-b78b8ea314d3" name="Changes" comment="feat:监控日志信息上传与前端页面渲染">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/repository/IMonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/repository/IMonitorRepository.java" afterDir="false" />
@@ -20,6 +21,9 @@
       <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/front/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/front/update.html" afterDir="false" />
     </list>
+
+    <list default="true" id="205737ec-40bc-42d2-9a17-b78b8ea314d3" name="Changes" comment="feat:监控节点修改" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +58,7 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
@@ -76,6 +81,24 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.51839083&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/code/java_and _c/java/javaee/behavior-monitor/behavior-monitor-sdk/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.51839083",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+
   }
 }</component>
   <component name="ReactorSettings">

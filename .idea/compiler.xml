@@ -10,8 +10,15 @@
         <module name="behavior-monitor-admin" />
         <module name="behavior-monitor-sdk" />
         <module name="behavior-monitor-test" />
+
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="behavior-monitor" target="1.8" />
+      <module name="behavior-monitor-admin" target="1.8" />
+      <module name="behavior-monitor-sdk" target="1.8" />
+      <module name="behavior-monitor-test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
