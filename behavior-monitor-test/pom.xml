@@ -100,7 +100,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.7.12</version>
                 <configuration>
-                    <mainClass>cn.bugstack.Application</mainClass>
+                    <mainClass>com.dawang.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

@@ -1,0 +1,304 @@
+24-11-02.19:47:37.137 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 46164 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.19:47:37.139 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.19:47:37.952 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.19:47:37.955 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.19:47:37.981 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-11-02.19:47:38.439 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.19:47:38.448 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.19:47:38.448 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.19:47:38.448 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.19:47:38.572 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.19:47:38.573 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1392 ms
+24-11-02.19:47:38.909 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.19:47:39.703 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.19:47:40.159 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.19:47:40.253 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'monitorLogListener': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dawang.monitor.domain.service.ILogAnalyticalService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+24-11-02.19:47:40.331 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-02.19:47:40.345 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-02.19:47:40.378 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.dawang.monitor.domain.service.ILogAnalyticalService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.dawang.monitor.domain.service.ILogAnalyticalService' in your configuration.
+
+24-11-02.19:48:16.838 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 40388 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.19:48:16.841 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.19:48:17.561 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.19:48:17.563 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.19:48:17.585 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-11-02.19:48:18.004 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.19:48:18.011 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.19:48:18.012 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.19:48:18.012 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.19:48:18.126 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.19:48:18.126 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1239 ms
+24-11-02.19:48:18.441 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.19:48:19.207 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.19:48:19.620 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.19:48:20.508 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-02.19:48:20.539 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-11-02.19:48:20.549 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-11-02.19:48:20.561 [main            ] INFO  Application            - Started Application in 4.316 seconds (JVM running for 5.519)
+24-11-02.19:48:20.922 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-02.19:48:21.948 [RMI TCP Connection(3)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-02.19:48:21.949 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-02.19:48:21.950 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-02.19:48:22.476 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-02.19:50:17.137 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
+24-11-02.19:50:51.831 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s207ms145µs800ns).
+24-11-02.19:51:06.469 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
+java.lang.NullPointerException: null
+	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
+	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
+	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
+	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-11-02.19:51:13.107 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-02.19:51:13.116 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-02.19:53:36.759 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 22508 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.19:53:36.762 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.19:53:37.496 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.19:53:37.499 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.19:53:37.521 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-11-02.19:53:37.961 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.19:53:37.969 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.19:53:37.969 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.19:53:37.969 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.19:53:38.074 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.19:53:38.074 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1267 ms
+24-11-02.19:53:38.391 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.19:53:39.134 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.19:53:39.554 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.19:53:40.408 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-02.19:53:40.438 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-11-02.19:53:40.447 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-11-02.19:53:40.459 [main            ] INFO  Application            - Started Application in 4.137 seconds (JVM running for 5.26)
+24-11-02.19:53:41.007 [RMI TCP Connection(1)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-02.19:53:41.007 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-02.19:53:41.008 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-02.19:53:42.012 [RMI TCP Connection(3)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-02.19:53:43.390 [RMI TCP Connection(3)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-02.19:54:18.592 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
+24-11-02.19:56:02.971 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m49s466ms558µs100ns).
+24-11-02.19:56:31.636 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
+java.lang.NullPointerException: null
+	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
+	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
+	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
+	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-11-02.19:56:31.637 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志01","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_01","systemName":"big-market"}
+24-11-02.19:56:31.637 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志01","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_01","systemName":"big-market"}
+java.lang.NullPointerException: null
+	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
+	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
+	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
+	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-11-02.19:56:31.637 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志02","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_02","systemName":"big-market"}
+24-11-02.19:56:31.637 [redisson-3-7    ] ERROR MonitorLogListener     - 监听监控日志信息,解析储存失败： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志02","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_02","systemName":"big-market"}
+java.lang.NullPointerException: null
+	at com.dawang.monitor.domain.service.LogAnalyticalService.doAnalytical(LogAnalyticalService.java:31)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:21)
+	at com.dawang.monitor.trigger.listener.MonitorLogListener.onMessage(MonitorLogListener.java:12)
+	at org.redisson.PubSubMessageListener.onMessage(PubSubMessageListener.java:79)
+	at org.redisson.client.RedisPubSubConnection.onMessage(RedisPubSubConnection.java:68)
+	at org.redisson.client.handler.CommandPubSubDecoder.lambda$enqueueMessage$2(CommandPubSubDecoder.java:221)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-11-02.19:56:32.365 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-02.19:56:32.381 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-02.19:57:23.689 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 11424 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.19:57:23.691 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.19:57:24.511 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.19:57:24.513 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.19:57:24.535 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-11-02.19:57:24.994 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.19:57:25.004 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.19:57:25.005 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.19:57:25.005 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.19:57:25.150 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.19:57:25.151 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1418 ms
+24-11-02.19:57:25.366 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logAnalyticalService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dawang.monitor.domain.repository.IMonitorRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+24-11-02.19:57:25.369 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-02.19:57:25.381 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-02.19:57:25.402 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.dawang.monitor.domain.repository.IMonitorRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.dawang.monitor.domain.repository.IMonitorRepository' in your configuration.
+
+24-11-02.20:04:58.474 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 36456 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.20:04:58.478 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.20:04:59.213 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.20:04:59.214 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.20:04:59.236 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-11-02.20:04:59.640 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.20:04:59.647 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.20:04:59.648 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.20:04:59.648 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.20:04:59.762 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.20:04:59.763 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1242 ms
+24-11-02.20:05:00.255 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.20:05:00.992 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.20:05:01.430 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.20:05:02.089 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-02.20:05:02.115 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-11-02.20:05:02.124 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-11-02.20:05:02.136 [main            ] INFO  Application            - Started Application in 4.106 seconds (JVM running for 5.244)
+24-11-02.20:05:03.082 [RMI TCP Connection(2)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-02.20:05:03.082 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-02.20:05:03.083 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-02.20:05:03.083 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-02.20:05:04.545 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-02.20:05:45.852 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
+24-11-02.20:15:14.080 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m39s415ms654µs700ns).
+24-11-02.20:16:48.344 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s264ms70µs100ns).
+24-11-02.20:19:56.215 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-02.20:19:56.227 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-02.20:20:20.477 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 62544 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.20:20:20.480 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.20:20:21.131 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.20:20:21.133 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.20:20:21.152 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-11-02.20:20:21.529 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.20:20:21.536 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.20:20:21.537 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.20:20:21.537 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.20:20:21.650 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.20:20:21.650 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1137 ms
+24-11-02.20:20:22.084 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.20:20:22.828 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.20:20:23.223 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.20:20:23.826 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-02.20:20:23.849 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-11-02.20:20:23.857 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-11-02.20:20:23.868 [main            ] INFO  Application            - Started Application in 3.776 seconds (JVM running for 4.979)
+24-11-02.20:20:24.545 [RMI TCP Connection(1)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-02.20:20:24.545 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-02.20:20:24.546 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-02.20:20:24.547 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 2 ms
+24-11-02.20:20:25.999 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-02.20:20:47.215 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-02.20:20:47.224 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-02.20:20:50.323 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 63976 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.20:20:50.325 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.20:20:51.063 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.20:20:51.065 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.20:20:51.086 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-11-02.20:20:51.584 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.20:20:51.591 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.20:20:51.591 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.20:20:51.591 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.20:20:51.709 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.20:20:51.710 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1350 ms
+24-11-02.20:20:52.213 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.20:20:53.051 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.20:20:53.490 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.20:20:54.229 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-02.20:20:54.256 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-11-02.20:20:54.266 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-11-02.20:20:54.277 [main            ] INFO  Application            - Started Application in 4.414 seconds (JVM running for 5.803)
+24-11-02.20:20:54.845 [RMI TCP Connection(2)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-02.20:20:54.845 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-02.20:20:54.848 [RMI TCP Connection(2)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 3 ms
+24-11-02.20:20:54.848 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-02.20:20:56.324 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-02.20:21:51.119 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志01","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_01","systemName":"big-market"}
+24-11-02.21:01:31.474 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m50s353ms167µs100ns).
+24-11-02.21:02:11.296 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-02.21:02:11.696 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-02.21:05:24.951 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 65580 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.21:05:24.953 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.21:05:25.657 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.21:05:25.659 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.21:05:25.680 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-11-02.21:05:26.109 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.21:05:26.116 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.21:05:26.116 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.21:05:26.116 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.21:05:26.263 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.21:05:26.263 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1274 ms
+24-11-02.21:05:26.768 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.21:05:27.540 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.21:05:28.000 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.21:05:28.723 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-02.21:05:28.750 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-11-02.21:05:28.763 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-11-02.21:05:28.777 [main            ] INFO  Application            - Started Application in 4.336 seconds (JVM running for 6.102)
+24-11-02.21:05:28.935 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-02.21:05:30.004 [RMI TCP Connection(3)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-02.21:05:30.004 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-02.21:05:30.005 [RMI TCP Connection(3)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-02.21:05:30.404 [RMI TCP Connection(1)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-02.21:06:15.359 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志01","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_01","systemName":"big-market"}
+24-11-02.21:07:12.149 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s626ms763µs).
+24-11-02.21:07:29.165 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-02.21:07:29.177 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-02.21:07:56.878 [main            ] INFO  Application            - Starting Application using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 72492 (D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\target\classes started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor)
+24-11-02.21:07:56.881 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-02.21:07:57.573 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-02.21:07:57.574 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-02.21:07:57.596 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-11-02.21:07:58.006 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-11-02.21:07:58.014 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-11-02.21:07:58.014 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-02.21:07:58.015 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-02.21:07:58.129 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-02.21:07:58.130 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1213 ms
+24-11-02.21:07:58.602 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-02.21:07:59.357 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.21:07:59.814 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-02.21:08:00.502 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-02.21:08:00.529 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-11-02.21:08:00.537 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-11-02.21:08:00.549 [main            ] INFO  Application            - Started Application in 4.123 seconds (JVM running for 5.336)
+24-11-02.21:08:01.378 [RMI TCP Connection(1)-192.168.0.108] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-02.21:08:01.378 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-02.21:08:01.379 [RMI TCP Connection(1)-192.168.0.108] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-02.21:08:01.380 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-02.21:08:02.791 [RMI TCP Connection(2)-192.168.0.108] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-02.21:08:40.053 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志信息,解析储存： {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
+24-11-02.21:12:39.852 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s657ms97µs600ns).
+24-11-02.21:16:13.613 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s1ms871µs500ns).
+24-11-02.21:16:14.509 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-02.21:16:14.521 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

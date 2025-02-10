@@ -4,17 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205737ec-40bc-42d2-9a17-b78b8ea314d3" name="Changes" comment="feat: front-part">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+
+    <list default="true" id="205737ec-40bc-42d2-9a17-b78b8ea314d3" name="Changes" comment="feat:监控日志信息上传与前端页面渲染">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-test/target/classes/com/dawang/monitor/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-test/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-test/target/classes/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-test/target/test-classes/com/dawang/monitor/test/ApiTest$UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavior-monitor-test/target/test-classes/com/dawang/monitor/test/ApiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/repository/IMonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/repository/IMonitorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/ILogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/ILogAnalyticalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/LogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/LogAnalyticalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/repository/MonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/repository/MonitorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/trigger/http/MonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/trigger/http/MonitorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/repository/IMonitorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/repository/IMonitorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/ILogAnalyticalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/ILogAnalyticalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/LogAnalyticalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/domain/service/LogAnalyticalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/repository/MonitorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/infrastructure/repository/MonitorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/trigger/http/MonitorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/behavior-monitor-admin/target/classes/com/dawang/monitor/trigger/http/MonitorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/front/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/front/update.html" afterDir="false" />
     </list>
+
+    <list default="true" id="205737ec-40bc-42d2-9a17-b78b8ea314d3" name="Changes" comment="feat:监控节点修改" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,16 +33,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="20241027-front" />
+        <entry key="$PROJECT_DIR$" value="20241027-dawang-injt-log" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +58,7 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
@@ -59,7 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;20241027-dawang-orm&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;20241027-dawang-injt-update&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/code/java_and _c/java/javaee/behavior-monitor/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/po&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -69,10 +79,31 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.51839083&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/code/java_and _c/java/javaee/behavior-monitor/behavior-monitor-sdk/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.51839083",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin\src\main\java\com\dawang\monitor\infrastructure\po" />
@@ -85,8 +116,11 @@
       <recent name="D:\code\java_and _c\java\javaee\behavior-monitor\docs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dawang.monitor.domain.model.valobj" />
+      <recent name="com.dawang.monitor.infrastructure.redis" />
+      <recent name="com.dawang.monitor.domain.model.entity" />
+      <recent name="com.dawang.monitor.types" />
       <recent name="com.dawang.test" />
-      <recent name="com.dawang.monitor.test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,8 +130,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MonitorDataDaoTest.test_queryMonitorDataList">
-    <configuration name="ApiTest.test_log_00" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="behavior-monitor-test" />
       <extension name="coverage">
         <pattern>
@@ -105,10 +139,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dawang.monitor.test" />
+      <option name="PACKAGE_NAME" value="cn.bugstack.monitor.test" />
       <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.ApiTest" />
       <option name="METHOD_NAME" value="test_log_00" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,7 +155,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dawang.monitor.test" />
+      <option name="PACKAGE_NAME" value="cn.bugstack.monitor.test" />
       <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.ApiTest" />
       <option name="METHOD_NAME" value="test_log_01" />
       <option name="TEST_OBJECT" value="method" />
@@ -129,17 +163,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonitorDataDaoTest.test_queryMonitorDataList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonitorControllerTest.queryMonitorDataMapEntityList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="behavior-monitor-admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dawang.monitor.test.infrastructure.*" />
+          <option name="PATTERN" value="com.dawang.monitor.test.trigger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dawang.monitor.test.infrastructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.infrastructure.MonitorDataDaoTest" />
+      <option name="PACKAGE_NAME" value="cn.bugstack.monitor.test.trigger" />
+      <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.trigger.MonitorControllerTest" />
+      <option name="METHOD_NAME" value="queryMonitorDataMapEntityList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorControllerTest.test_queryMonitorDataList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="behavior-monitor-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dawang.monitor.test.trigger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dawang.monitor.test.trigger" />
+      <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.trigger.MonitorControllerTest" />
       <option name="METHOD_NAME" value="test_queryMonitorDataList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorControllerTest.test_queryMonitorFlowData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="behavior-monitor-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dawang.monitor.test.trigger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dawang.monitor.test.trigger" />
+      <option name="MAIN_CLASS_NAME" value="com.dawang.monitor.test.trigger.MonitorControllerTest" />
+      <option name="METHOD_NAME" value="test_queryMonitorFlowData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,20 +242,12 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="dev-ops: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docs/dev-ops/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MonitorDataDaoTest.test_queryMonitorDataList" />
-        <item itemvalue="Docker.dev-ops: Compose Deployment" />
-        <item itemvalue="JUnit.ApiTest.test_log_01" />
-        <item itemvalue="JUnit.ApiTest.test_log_00" />
+        <item itemvalue="JUnit.MonitorControllerTest.test_queryMonitorDataList" />
+        <item itemvalue="JUnit.MonitorControllerTest.test_queryMonitorFlowData" />
+        <item itemvalue="JUnit.MonitorControllerTest.queryMonitorDataMapEntityList" />
+        <item itemvalue="JUnit.ApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +265,9 @@
       <workItem from="1730273305263" duration="8000" />
       <workItem from="1730366372799" duration="10100000" />
       <workItem from="1730385654003" duration="3701000" />
-      <workItem from="1730445793008" duration="1494000" />
+      <workItem from="1730445793008" duration="44271000" />
+      <workItem from="1730781342234" duration="7857000" />
+      <workItem from="1730974677321" duration="4239000" />
     </task>
     <task id="LOCAL-00001" summary="feat: project init">
       <option name="closed" value="true" />
@@ -233,7 +293,47 @@
       <option name="project" value="LOCAL" />
       <updated>1730111575209</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: behavior-monitor orm部分">
+      <option name="closed" value="true" />
+      <created>1730448157340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730448157341</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: behavior-monitor orm部分">
+      <option name="closed" value="true" />
+      <created>1730448187408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730448187408</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: behavior-monitor orm部分">
+      <option name="closed" value="true" />
+      <created>1730448335163</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730448335163</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: behavior-monitor 监控中心接收测试工程上报数据解析">
+      <option name="closed" value="true" />
+      <created>1730652628799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730652628799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat:监控日志信息上传与前端页面渲染">
+      <option name="closed" value="true" />
+      <created>1730781502464</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730781502464</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +350,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="20241027-dawang-orm" />
+                        <option value="20241027-dawang-monitor" />
                       </list>
                     </value>
                   </entry>
@@ -265,6 +365,53 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: project init" />
     <MESSAGE value="feat: front-part" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: front-part" />
+    <MESSAGE value="feat: behavior-monitor orm部分" />
+    <MESSAGE value="feat: behavior-monitor 监控中心接收测试工程上报数据解析" />
+    <MESSAGE value="feat:监控日志信息上传与前端页面渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:监控日志信息上传与前端页面渲染" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/trigger/listener/MonitorLogListener.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/test/java/com/dawang/monitor/test/trigger/MonitorControllerTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/test/java/com/dawang/monitor/test/trigger/MonitorControllerTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/trigger/http/MonitorController.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/domain/service/LogAnalyticalService.java</url>
+          <line>111</line>
+          <properties class="com.dawang.monitor.domain.service.LogAnalyticalService" method="queryMonitorDataEntityList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/behavior-monitor-admin/src/main/java/com/dawang/monitor/infrastructure/repository/MonitorRepository.java</url>
+          <line>178</line>
+          <properties class="com.dawang.monitor.infrastructure.repository.MonitorRepository" method="queryMonitorDataEntityList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
