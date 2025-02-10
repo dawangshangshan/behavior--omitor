@@ -1,0 +1,105 @@
+24-11-03.23:15:05.185 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 85908 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-03.23:15:05.187 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-03.23:15:06.375 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-03.23:15:06.378 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-03.23:15:06.411 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-11-03.23:15:08.407 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-03.23:15:09.386 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:15:09.826 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:15:11.500 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-03.23:15:11.580 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.906 seconds (JVM running for 8.031)
+24-11-03.23:15:12.017 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-03.23:15:13.562 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-03.23:15:13.830 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
+24-11-03.23:15:13.930 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-03.23:15:14.352 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-03.23:15:47.492 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 58272 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-03.23:15:47.494 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-03.23:15:48.445 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-03.23:15:48.448 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-03.23:15:48.480 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-11-03.23:15:50.307 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-03.23:15:51.281 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:15:51.700 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:15:53.415 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-03.23:15:53.488 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.457 seconds (JVM running for 7.799)
+24-11-03.23:15:55.018 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-03.23:15:57.682 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-03.23:16:01.287 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-03.23:16:01.347 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
+24-11-03.23:16:01.636 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-03.23:16:08.971 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 45448 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-03.23:16:08.972 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-03.23:16:09.928 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-03.23:16:09.931 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-03.23:16:09.962 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-11-03.23:16:11.768 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-03.23:16:12.671 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:16:13.118 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:16:14.896 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-03.23:16:14.957 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.444 seconds (JVM running for 7.586)
+24-11-03.23:22:12.730 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-03.23:22:15.425 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-03.23:22:26.536 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-03.23:22:26.593 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
+24-11-03.23:22:26.979 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-03.23:22:31.466 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 83208 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-03.23:22:31.468 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-03.23:22:32.434 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-03.23:22:32.438 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-03.23:22:32.474 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-11-03.23:22:34.383 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-03.23:22:35.325 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:22:35.760 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:22:37.706 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-03.23:22:37.770 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.862 seconds (JVM running for 8.032)
+24-11-03.23:23:05.133 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-03.23:23:08.024 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-03.23:23:19.558 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-03.23:23:19.706 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
+24-11-03.23:23:19.897 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-03.23:33:39.773 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 45644 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-03.23:33:39.775 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-03.23:33:40.722 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-03.23:33:40.725 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-03.23:33:40.757 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-11-03.23:33:42.476 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-03.23:33:43.308 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:33:43.773 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:33:45.393 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-03.23:33:45.452 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 6.204 seconds (JVM running for 7.173)
+24-11-03.23:33:45.818 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-03.23:33:47.376 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-03.23:33:47.611 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
+24-11-03.23:33:47.702 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-03.23:33:48.028 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-03.23:34:07.731 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 70392 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-03.23:34:07.732 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-03.23:34:08.636 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-03.23:34:08.639 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-03.23:34:08.668 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-11-03.23:34:11.261 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-03.23:34:12.346 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:34:12.772 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:34:15.408 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-03.23:34:15.493 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 8.234 seconds (JVM running for 9.628)
+24-11-03.23:34:41.037 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-03.23:34:43.958 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-03.23:34:57.335 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-03.23:34:57.400 [main            ] INFO  MonitorControllerTest  - response:{"code":"0001","info":"调用监控列表失败"}
+24-11-03.23:34:57.625 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-11-03.23:36:14.498 [main            ] INFO  MonitorControllerTest  - Starting MonitorControllerTest using Java 1.8.0_192 on LAPTOP-SRT9KJER with PID 20068 (started by ASUS in D:\code\java_and _c\java\javaee\behavior-monitor\behavior-monitor-admin)
+24-11-03.23:36:14.499 [main            ] INFO  MonitorControllerTest  - The following 1 profile is active: "dev"
+24-11-03.23:36:15.425 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-03.23:36:15.430 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-03.23:36:15.461 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-11-03.23:36:17.991 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-03.23:36:19.158 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:36:19.615 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 47.121.185.163/47.121.185.163:16379
+24-11-03.23:36:22.377 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-03.23:36:22.459 [main            ] INFO  MonitorControllerTest  - Started MonitorControllerTest in 8.416 seconds (JVM running for 9.616)
+24-11-03.23:36:29.330 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-11-03.23:36:32.278 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-11-03.23:36:46.579 [main            ] INFO  MonitorControllerTest  - response:{"code":"0000","data":[{"monitorId":"129009","monitorName":"测试监控流程"},{"monitorId":"129101","monitorName":"大营销抽奖流程"}],"info":"调用成功"}
+24-11-03.23:36:46.685 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-11-03.23:36:46.823 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

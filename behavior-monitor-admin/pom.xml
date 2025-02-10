@@ -77,8 +77,8 @@
             <version>3.0.8</version>
         </dependency>
         <dependency>
-            <groupId>plus.gaga</groupId>
-            <artifactId>business-behavior-monitor-sdk</artifactId>
+            <groupId>com.dawang</groupId>
+            <artifactId>behavior-monitor-sdk</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>
@@ -120,7 +120,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.bugstack.Application</mainClass>
+                    <mainClass>com.dawang.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
